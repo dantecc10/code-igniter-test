@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/learning-ci/
+RewriteRule ^(.*)$ /tucarpeta/$1 [L]
